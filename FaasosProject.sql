@@ -55,8 +55,8 @@ drop table if exists rolls;
 CREATE TABLE rolls(roll_id integer,roll_name varchar(30)); 
 
 INSERT INTO rolls(roll_id ,roll_name) 
- VALUES (1	,'Non Veg Roll'),
-(2	,'Veg Roll');
+ VALUES (1,'Non Veg Roll'),
+(2,'Veg Roll');
 
 drop table if exists rolls_recipes;
 CREATE TABLE rolls_recipes(roll_id integer,ingredients varchar(24)); 
